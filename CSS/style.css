@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/gym_trainer.jpg");
+    color: white;
+}
+.left{
+    float: left;
+    /* border: 1px solid green; */
+    margin: auto 60px;
+}
+.left img {
+    width: 60px;
+}
+.mid{
+    width: 45%;
+    margin: auto;
+}
+ul{
+    /* border: 2px solid red; */
+    margin: 20px auto;
+}
+ul li{
+    display: inline-block;
+    margin: 4px;
+    font-size: 21px;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+}
+.right{
+    float: right;
+    position: absolute;
+    top: 18px;
+    right: 40px;
+    /* border: 1px solid yellow; */
+}
+ul li a.active, ul li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px 4px;
+    padding: 5px 8px;
+    border: 1px solid grey;
+}
+.mainBox{
+    border: 2px solid rgb(213 197 197);
+    border-radius: 12px;
+    width: 35%;
+    margin: 67px;
+    padding: 22px;
+}
+.mainBox input{
+    display: block;
+    margin: 6px auto;
+    border-radius: 6px;
+    font-size: 22px;
+    border: 1px solid black;
+}
+.mainBox h1{
+    text-align: center;
+}
+.mainBox .btn{
+    display: block;
+    margin: 18px auto;
+    width: 30%;
+}
+
